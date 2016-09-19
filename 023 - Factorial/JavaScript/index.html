@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>023 - Factorial</title>
+</head>
+<body>
+  <script>
+    do {
+      var n = prompt('Find n! where: \nn = ');
+    } while (isNaN(n));
+
+    if (n == 1) {
+      document.write('1');
+    } else if (n > 1) {
+      var counter = 1;
+
+      for (var i = 1; i <= n; i++) {
+        counter *= i;
+      }
+      document.write(String(counter));
+    } else {
+      document.write('Expected a positive integer.');
+    }
+  </script>
+</body>
+</html>

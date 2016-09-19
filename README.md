@@ -21,7 +21,7 @@
 - [ ] 020 - Sorting algorithms + visulization
 - [ ] 021 - Count words in a string { Include lines, sentences, paragraphs, etc }
 - [ ] 022 - Palindrome checker
-- [ ] 023 - Factorial
+- [x] 023 - Factorial
 - [ ] 024 - Eulerian trail/path
 - [ ] 025 - Read a text tile, then center/right align/justify its contents
 - [ ] 026 - Higher/lower, heads/tails
