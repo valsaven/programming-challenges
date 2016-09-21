@@ -41,7 +41,7 @@
 - [ ] 040 - Password/passphrase generator with options
 - [ ] 041 - Prime number sieve { Include multi-threading }
 - [ ] 042 - Fibonacci sequence (at least the first 100 numbers)
-- [ ] 043 - Temperature converter
+- [x] 043 - Temperature converter
 - [ ] 044 - Cellular textures
 - [ ] 045 - Triangle number calculator
 - [ ] 046 - Eight Queens puzzle
