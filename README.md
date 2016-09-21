@@ -21,7 +21,7 @@
 - [ ] 020 - Sorting algorithms + visulization
 - [ ] 021 - Count words in a string { Include lines, sentences, paragraphs, etc }
 - [ ] 022 - Palindrome checker
-- [x] 023 - Factorial
+- [x] ~~023 - Factorial~~
 - [ ] 024 - Eulerian trail/path
 - [ ] 025 - Read a text tile, then center/right align/justify its contents
 - [ ] 026 - Higher/lower, heads/tails
@@ -41,7 +41,7 @@
 - [ ] 040 - Password/passphrase generator with options
 - [ ] 041 - Prime number sieve { Include multi-threading }
 - [ ] 042 - Fibonacci sequence (at least the first 100 numbers)
-- [x] 043 - Temperature converter
+- [x] ~~043 - Temperature converter~~
 - [ ] 044 - Cellular textures
 - [ ] 045 - Triangle number calculator
 - [ ] 046 - Eight Queens puzzle
