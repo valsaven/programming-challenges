@@ -1,0 +1,26 @@
+/* Created by val on 10/1/16 */
+
+body {
+  background-color: #fff;
+  color: #4f5355;
+  font-family: Arial, sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 30%;
+}
+
+label {
+  font-weight: bold;
+}
+
+.field {
+  align-content: center;
+  margin-bottom: 10px;
+  width: 40%;
+}

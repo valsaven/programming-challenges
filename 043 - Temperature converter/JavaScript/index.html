@@ -1,0 +1,37 @@
+<!-- Created by val on 10/1/16 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>043 - Temperature converter</title>
+  <link href="style.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+</head>
+<body>
+  <div class="converter">
+    <div class="field">
+      <label for="temp">Value to convert (ºC):</label>
+      <input id="temp">
+    </div>
+    <div class="field">
+      <label for="f">F</label>
+      <input id="f" disabled>
+    </div>
+    <div class="field">
+      <label for="k">K</label>
+      <input id="k" disabled>
+    </div>
+  </div>
+  <script>
+    $('#temp').on('keyup', function () {
+      var t = Number($('#temp').val());
+      var f = (((9 / 5) * t) + 32).toFixed(2) + ' ºF';
+      var k = (t + 273.15).toFixed(2) + ' K';
+
+      $('#f').val(f);
+      $('#k').val(k);
+    });
+  </script>
+</body>
+</html>
